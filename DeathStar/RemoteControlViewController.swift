@@ -10,7 +10,11 @@ import UIKit
 
 class RemoteControlViewController: UIViewController {
     
-    // consider a true dependency injection system, such as
+    // Manually creating a death star here
+    // Consider instead a true dependency injection system, such as an IoC framework
+    // On IoC frameworks: http://martinfowler.com/articles/injection.html
+    // Swinject: https://github.com/Swinject/Swinject
+    // Cleanse: https://github.com/square/Cleanse
     var deathStar: DeathStar = MyFirstDeathStar()
     
     @IBAction func tappedCharge(sender: UIButton) {
