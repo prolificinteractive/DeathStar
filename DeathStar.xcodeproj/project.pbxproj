@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1588B981D343F73000492BF /* FakeDeathStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1588B971D343F73000492BF /* FakeDeathStar.swift */; };
+		B1588B9A1D343F92000492BF /* DeathStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1588B991D343F92000492BF /* DeathStar.swift */; };
+		B19520F51D2DCE6800A2D6A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19520F41D2DCE6800A2D6A9 /* AppDelegate.swift */; };
+		B19520F71D2DCE6800A2D6A9 /* RemoteControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19520F61D2DCE6800A2D6A9 /* RemoteControlViewController.swift */; };
+		B19520FA1D2DCE6800A2D6A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19520F81D2DCE6800A2D6A9 /* Main.storyboard */; };
+		B19520FC1D2DCE6800A2D6A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19520FB1D2DCE6800A2D6A9 /* Assets.xcassets */; };
+		B19520FF1D2DCE6800A2D6A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19520FD1D2DCE6800A2D6A9 /* LaunchScreen.storyboard */; };
+		B195210A1D2DCE6800A2D6A9 /* MyFirstDeathStarSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19521091D2DCE6800A2D6A9 /* MyFirstDeathStarSpec.swift */; };
+		B1B672171D2EBCD900E8C32C /* MyFirstDeathStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B672161D2EBCD900E8C32C /* MyFirstDeathStar.swift */; };
+		B1B672191D2EDD0900E8C32C /* RemoteControlViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B672181D2EDD0900E8C32C /* RemoteControlViewControllerSpec.swift */; };
+		C85A552C8B2BC69179CCFEF6 /* Pods_DeathStarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F82A6CE3C81AE689EEB8FC /* Pods_DeathStarTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B19521061D2DCE6800A2D6A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19520E91D2DCE6800A2D6A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B19520F01D2DCE6800A2D6A9;
+			remoteInfo = DeathStar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		483DCECAA41A39BDD7813B31 /* Pods-DeathStarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeathStarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeathStarTests/Pods-DeathStarTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1588B971D343F73000492BF /* FakeDeathStar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeDeathStar.swift; sourceTree = "<group>"; };
+		B1588B991D343F92000492BF /* DeathStar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeathStar.swift; sourceTree = "<group>"; };
+		B19520F11D2DCE6800A2D6A9 /* DeathStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeathStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19520F41D2DCE6800A2D6A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B19520F61D2DCE6800A2D6A9 /* RemoteControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControlViewController.swift; sourceTree = "<group>"; };
+		B19520F91D2DCE6800A2D6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B19520FB1D2DCE6800A2D6A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B19520FE1D2DCE6800A2D6A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B19521001D2DCE6800A2D6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19521051D2DCE6800A2D6A9 /* DeathStarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeathStarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19521091D2DCE6800A2D6A9 /* MyFirstDeathStarSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstDeathStarSpec.swift; sourceTree = "<group>"; };
+		B195210B1D2DCE6800A2D6A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1B672161D2EBCD900E8C32C /* MyFirstDeathStar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFirstDeathStar.swift; sourceTree = "<group>"; };
+		B1B672181D2EDD0900E8C32C /* RemoteControlViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteControlViewControllerSpec.swift; sourceTree = "<group>"; };
+		CAF835EA0303AE53E4A4AE1F /* Pods-DeathStarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeathStarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeathStarTests/Pods-DeathStarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6F82A6CE3C81AE689EEB8FC /* Pods_DeathStarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeathStarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B19520EE1D2DCE6800A2D6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19521021D2DCE6800A2D6A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85A552C8B2BC69179CCFEF6 /* Pods_DeathStarTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CDAE67FE8B17E3CD130F271 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAF835EA0303AE53E4A4AE1F /* Pods-DeathStarTests.debug.xcconfig */,
+				483DCECAA41A39BDD7813B31 /* Pods-DeathStarTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B19520E81D2DCE6800A2D6A9 = {
+			isa = PBXGroup;
+			children = (
+				B19520F31D2DCE6800A2D6A9 /* DeathStar */,
+				B19521081D2DCE6800A2D6A9 /* DeathStarTests */,
+				B19520F21D2DCE6800A2D6A9 /* Products */,
+				2CDAE67FE8B17E3CD130F271 /* Pods */,
+				C6BEB62011F1D51382B0999E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B19520F21D2DCE6800A2D6A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B19520F11D2DCE6800A2D6A9 /* DeathStar.app */,
+				B19521051D2DCE6800A2D6A9 /* DeathStarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B19520F31D2DCE6800A2D6A9 /* DeathStar */ = {
+			isa = PBXGroup;
+			children = (
+				B19520F61D2DCE6800A2D6A9 /* RemoteControlViewController.swift */,
+				B1588B991D343F92000492BF /* DeathStar.swift */,
+				B1B672161D2EBCD900E8C32C /* MyFirstDeathStar.swift */,
+				B19520F81D2DCE6800A2D6A9 /* Main.storyboard */,
+				B19520F41D2DCE6800A2D6A9 /* AppDelegate.swift */,
+				B19520FB1D2DCE6800A2D6A9 /* Assets.xcassets */,
+				B19520FD1D2DCE6800A2D6A9 /* LaunchScreen.storyboard */,
+				B19521001D2DCE6800A2D6A9 /* Info.plist */,
+			);
+			path = DeathStar;
+			sourceTree = "<group>";
+		};
+		B19521081D2DCE6800A2D6A9 /* DeathStarTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1588B971D343F73000492BF /* FakeDeathStar.swift */,
+				B19521091D2DCE6800A2D6A9 /* MyFirstDeathStarSpec.swift */,
+				B1B672181D2EDD0900E8C32C /* RemoteControlViewControllerSpec.swift */,
+				B195210B1D2DCE6800A2D6A9 /* Info.plist */,
+			);
+			path = DeathStarTests;
+			sourceTree = "<group>";
+		};
+		C6BEB62011F1D51382B0999E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6F82A6CE3C81AE689EEB8FC /* Pods_DeathStarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B19520F01D2DCE6800A2D6A9 /* DeathStar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B195210E1D2DCE6800A2D6A9 /* Build configuration list for PBXNativeTarget "DeathStar" */;
+			buildPhases = (
+				B19520ED1D2DCE6800A2D6A9 /* Sources */,
+				B19520EE1D2DCE6800A2D6A9 /* Frameworks */,
+				B19520EF1D2DCE6800A2D6A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeathStar;
+			productName = DeathStar;
+			productReference = B19520F11D2DCE6800A2D6A9 /* DeathStar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B19521041D2DCE6800A2D6A9 /* DeathStarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19521111D2DCE6800A2D6A9 /* Build configuration list for PBXNativeTarget "DeathStarTests" */;
+			buildPhases = (
+				2E689708539F7DEB94EC4DD3 /* Check Pods Manifest.lock */,
+				B19521011D2DCE6800A2D6A9 /* Sources */,
+				B19521021D2DCE6800A2D6A9 /* Frameworks */,
+				B19521031D2DCE6800A2D6A9 /* Resources */,
+				955354122E241825304F5BFA /* Embed Pods Frameworks */,
+				C7B84EA95F62736A6CA99448 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19521071D2DCE6800A2D6A9 /* PBXTargetDependency */,
+			);
+			name = DeathStarTests;
+			productName = DeathStarTests;
+			productReference = B19521051D2DCE6800A2D6A9 /* DeathStarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B19520E91D2DCE6800A2D6A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "The Empire";
+				TargetAttributes = {
+					B19520F01D2DCE6800A2D6A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B19521041D2DCE6800A2D6A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B19520F01D2DCE6800A2D6A9;
+					};
+				};
+			};
+			buildConfigurationList = B19520EC1D2DCE6800A2D6A9 /* Build configuration list for PBXProject "DeathStar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B19520E81D2DCE6800A2D6A9;
+			productRefGroup = B19520F21D2DCE6800A2D6A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B19520F01D2DCE6800A2D6A9 /* DeathStar */,
+				B19521041D2DCE6800A2D6A9 /* DeathStarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B19520EF1D2DCE6800A2D6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19520FF1D2DCE6800A2D6A9 /* LaunchScreen.storyboard in Resources */,
+				B19520FC1D2DCE6800A2D6A9 /* Assets.xcassets in Resources */,
+				B19520FA1D2DCE6800A2D6A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19521031D2DCE6800A2D6A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E689708539F7DEB94EC4DD3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		955354122E241825304F5BFA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeathStarTests/Pods-DeathStarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7B84EA95F62736A6CA99448 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeathStarTests/Pods-DeathStarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B19520ED1D2DCE6800A2D6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19520F71D2DCE6800A2D6A9 /* RemoteControlViewController.swift in Sources */,
+				B19520F51D2DCE6800A2D6A9 /* AppDelegate.swift in Sources */,
+				B1B672171D2EBCD900E8C32C /* MyFirstDeathStar.swift in Sources */,
+				B1588B9A1D343F92000492BF /* DeathStar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19521011D2DCE6800A2D6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1588B981D343F73000492BF /* FakeDeathStar.swift in Sources */,
+				B195210A1D2DCE6800A2D6A9 /* MyFirstDeathStarSpec.swift in Sources */,
+				B1B672191D2EDD0900E8C32C /* RemoteControlViewControllerSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B19521071D2DCE6800A2D6A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B19520F01D2DCE6800A2D6A9 /* DeathStar */;
+			targetProxy = B19521061D2DCE6800A2D6A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B19520F81D2DCE6800A2D6A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19520F91D2DCE6800A2D6A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B19520FD1D2DCE6800A2D6A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19520FE1D2DCE6800A2D6A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B195210C1D2DCE6800A2D6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B195210D1D2DCE6800A2D6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B195210F1D2DCE6800A2D6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeathStar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prolific.DeathStar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B19521101D2DCE6800A2D6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeathStar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prolific.DeathStar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B19521121D2DCE6800A2D6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF835EA0303AE53E4A4AE1F /* Pods-DeathStarTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeathStarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prolific.DeathStarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeathStar.app/DeathStar";
+			};
+			name = Debug;
+		};
+		B19521131D2DCE6800A2D6A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483DCECAA41A39BDD7813B31 /* Pods-DeathStarTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeathStarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prolific.DeathStarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeathStar.app/DeathStar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B19520EC1D2DCE6800A2D6A9 /* Build configuration list for PBXProject "DeathStar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B195210C1D2DCE6800A2D6A9 /* Debug */,
+				B195210D1D2DCE6800A2D6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B195210E1D2DCE6800A2D6A9 /* Build configuration list for PBXNativeTarget "DeathStar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B195210F1D2DCE6800A2D6A9 /* Debug */,
+				B19521101D2DCE6800A2D6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19521111D2DCE6800A2D6A9 /* Build configuration list for PBXNativeTarget "DeathStarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19521121D2DCE6800A2D6A9 /* Debug */,
+				B19521131D2DCE6800A2D6A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B19520E91D2DCE6800A2D6A9 /* Project object */;
+}
