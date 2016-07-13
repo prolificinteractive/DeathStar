@@ -7,6 +7,8 @@
 //
 @testable import DeathStar
 
+// This is technically a Mock
+// See http://martinfowler.com/articles/mocksArentStubs.html
 internal final class FakeDeathStar: DeathStar {
     var returnCharge = 7
     var wasCalled = false
